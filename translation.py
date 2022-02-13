@@ -37,7 +37,7 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏʀᴍᴀᴛɪᴏɴ Cʟɪᴄᴋ Hᴇʟᴘ Bᴜᴛᴛᴏ
 │
 ├ Eᴅɪᴛɪɴɢ : [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/ajvadntr2)
 │
-├ Pᴏᴡᴇʀᴇᴅ Bʏ : [ƛƖƠM ƁƠƬƧ](https://t.me/AIOM_BOTS
+├ Pᴏᴡᴇʀᴇᴅ Bʏ : [ƛƖƠM ƁƠƬƧ](https://t.me/AIOM_BOTS)
 │
 ├ Cʀᴇᴅɪᴛꜱ : Sᴜʙɪɴ Pʀᴏꜰᴇꜱꜱᴏʀ-99
 │
