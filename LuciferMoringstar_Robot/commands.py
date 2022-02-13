@@ -50,10 +50,12 @@ Pʟᴇᴀsᴇ Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs B�
    
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["help"]))
 async def help(bot, message):
-    button = [[
-     InlineKeyboardButton("🏠 Home", callback_data="start"),
-     InlineKeyboardButton("About 😎", callback_data="about")
-     ]]
+    buttons = [[
+              InlineKeyboardButton("Hᴏᴍᴇ", callback_data="start"),
+              InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")
+              ],[
+              InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
+              ]]
     await message.reply_photo(
         photo = choice(BOT_PICS),
         caption=LuciferMoringstar.HELP_MSG.format(mention=message.from_user.mention),
@@ -61,10 +63,12 @@ async def help(bot, message):
       
 @LuciferMoringstar_Robot.on_message(Worker.private & Worker.command(["about"]))
 async def about(bot, message):
-    button = [[
-     InlineKeyboardButton("🏠 Home", callback_data="start"),
-     InlineKeyboardButton("Close 🗑️", callback_data="close")
-     ]]  
+    buttons = [[
+              InlineKeyboardButton("Hᴏᴍᴇ", callback_data="start"),
+              InlineKeyboardButton("Hᴇʟᴘ", callback_data="help")
+              ],[
+              InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
+              ]]  
     await message.reply_photo(
         photo = choice(BOT_PICS),
         caption=LuciferMoringstar.ABOUT_MSG.format(mention=message.from_user.mention, bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME, dev_name=DEV_NAME),
