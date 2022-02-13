@@ -301,6 +301,9 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
         elif query.data == "pages":
             await query.answer()
 
+        elif msg.data == "close":
+              await msg.message.delete()
+
     else:
         await query.answer("This Is Not For You",show_alert=True)
 
