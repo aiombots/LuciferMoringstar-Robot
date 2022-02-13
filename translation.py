@@ -1,6 +1,6 @@
 class LuciferMoringstar(object):
 
-    DEFAULT_MSG f= """**Hᴇʟʟᴏ 👋, {message.from_user.mention}
+    DEFAULT_MSG = """**Hᴇʟʟᴏ 👋, {mention}
 
 I Aᴍ Vɪɴᴄᴇɴᴢᴏ Bᴏᴛ. I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇꜱ Iɴ Gʀᴏᴜᴩꜱ
 
