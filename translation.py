@@ -62,6 +62,12 @@ Hᴇʟʟᴏ 👋 {mention},
 Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ {query}?  Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Yᴏᴜʀ Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇ Mᴀᴍᴇ
 """
 
+    GET_MOVIE_1 = """**Tɪᴛʟᴇ : [{title}]({url}
+Yᴇᴀʀ : {year}
+Rᴀᴛɪɴɢ : {rating}/10
+Gᴇɴʀᴇs : {genres}
+Rᴇǫᴜᴇsᴛᴇᴅ Bʏ :{mention}**"""
+
 
     GET_MOVIE_2 = """
 • Rᴇǫᴜᴇsᴛᴇʀ : {mention}
