@@ -31,7 +31,11 @@ async def start_message(bot, message):
                  ],[
                  InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
                  ]]    
-        await message.reply_photo(photo = choice(BOT_PICS), caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons))
+        await message.reply_photo(
+            photo = choice(BOT_PICS),
+            caption=START_MSG.format(mention = message.from_user.mention, bot_name = bot_info.BOT_NAME, bot_username = bot_info.BOT_USERNAME),
+            reply_markup=InlineKeyboardMarkup(buttons)
+        )
         
     elif len(message.command) ==2 and message.command[1] in ["subscribe"]:
         FORCES=["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
