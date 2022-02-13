@@ -302,7 +302,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
             await query.answer()
 
     else:
-        await query.answer("Please Request",show_alert=True)
+        await query.answer("This Is Not For You",show_alert=True)
 
 
 
